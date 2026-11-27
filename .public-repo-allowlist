@@ -1,0 +1,27 @@
+# Exact root files
+/.gitattributes
+/.gitignore
+/.public-repo-allowlist
+/1. build.py
+/CMakeLists.txt
+/CHANGELOG.md
+/CONTRIBUTING.md
+/LICENSE
+/NOTICE
+/PRIVACY.md
+/README.md
+/SECURITY.md
+/THIRD_PARTY_NOTICES.md
+/vcpkg-configuration.json
+/vcpkg.json
+
+# Intentionally public directory trees
+/include/
+/src/
+/third_party/licenses/
+/tools/audit_public_repo.ps1
+/tools/make_icon.ps1
+/tools/release_receipt.py
+/tools/release_handoff.py
+/tools/devhub-control/devhub.ps1
+/vcpkg-overlays/
